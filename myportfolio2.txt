@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob about me project</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="project image.png">
+
+</head>
+<body>
+  <header>
+    Jacob Portfolio
+  </header>
+  
+  <hr>
+     <div class="menu">
+          <table cellspacing="5" cellpadding="5">
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="reflection.html">Reflection</a></td>
+          <td><a href="contact.html">Contact</a></td>
+        </tr>
+       </table>
+      </div>
+     <hr>
+
+  <div class="home">
+   <img src="project image.png"/>
+    <h1>Biography</h1>
+  <strong> <p>Hello, my name Jacob davis . Im very passionate about coding and graduating from the roadtohire program , and im excited to share a little bit more about myself with you.First off, I was born in St.louis , missouri. I moved out of St.louis when i was 8 years old to Alanta , Georgia. As far as my background go , I really have no expierence in coding , but I work hard daily, such as watching videos and practicing to become better at at. I graduated from whitewater highschool, During my time there I wasnt really thinking about what I wanted to do after highschool , until my brother brought up this program to me. Coding has always been a thing I kept in the back of my head that I wanted to do , but I really didnt know where to start. During my free time I enjoy playing video games , and basketball. One of my favorite hobbies I like to do would be boxing. My end goal for this program would be to graduate and get accepted into a company. </p> </strong> 
+   
+ 
+     
+    
+  </div>
+
+ 
+    <button id="nextButton">Next Page</button>
+  
+  
+
+    <script>
+        // Add an event listener to the button
+        document.getElementById("nextButton").addEventListener("click", function() {
+            // Use JavaScript to navigate to the next page
+            window.location.href = "reflection.html";
+        });
+    </script>
+
+
+  
+  
+</body>
+</html>
+
+
+
+
+<link rel="stylesheet" href="style.css"/>
+  <hr>
+     <div class="menu">
+          <table cellspacing="5" cellpadding="5">
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="reflection.html">Reflection</a></td>
+          <td><a href="contact.html">Contact</a></td>
+        </tr>
+       </table>
+      </div>
+      <hr>
+     
+<strong><h1>Professional development</h1></strong>
+<img src="professional development.webp" width="400px" height="auto"/>
+<p>My end goal for this program will be to graduate and get accepted into a good comapny , and </p> <hr>
+
+  <strong><h1>Technical</h1></strong>
+ <img src="technical image.jpg"/>
+ <p>coding is a passion of mine</p> <hr>
+
+ <strong><h1>Personal</h1></strong>
+ <img src="https://th.bing.com/th/id/OIP.BcnWbbi-8QhVjYMv0gCuEAHaFs?pid=ImgDet&rs=1"/>
+ <p> My faviorte hobby to do is boxing , but I also like playing basketball and video games </p>
+
+ <button id="nextButton">Next Page</button>
+
+    <script>
+        // Add an event listener to the button
+        document.getElementById("nextButton").addEventListener("click", function() {
+            // Use JavaScript to navigate to the next page
+            window.location.href = "contact.html";
+        });
+    </script>
+
+
+
+<link rel="stylesheet" href="style.css"/>
+
+  <hr>
+     <div class="menu">
+          <table cellspacing="5" cellpadding="5">
+        <tr>
+          <td><a href="index.html">Home</a></td>
+          <td><a href="reflection.html">Reflection</a></td>
+          <td><a href="contact.html">Contact</a></td>
+        </tr>
+       </table>
+      </div>
+      <hr>
+
+<h3>Contact Me</h3>
+
+<form action="index.php" Method="post" action="https://formsubmit.co/jacobmdavis6@yahoo.com" method="POST"> 
+  <label for="name">Name:</label>
+  <input type="text" id="text" required><br><br>
+
+   <label for="phone number">Phone Number:</label>
+  <input type="tel" id="phone number" required><br><br>
+
+  <label type="email">Email:</label>
+  <input type="email" id="email" required><br><br>
+
+  <label type="comment">Comment:</label>
+  <textarea id="comment"></textarea><br><br>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <button onsubmit="mailto:Jacobmdavis6@yahoo.com" >Submit</button><br><br>
+  
+ 
+
+ 
+  
+  
+
+</form>
+
+
+
+
+<h2>Reach me </h2><hr>
+<td><a href="mailto:Jacobmdavis6@yahoo.com" style="color:green; text-decoration: none;" >Jacobmdavis6@yahoo.com</a></td>
